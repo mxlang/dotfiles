@@ -1,0 +1,3 @@
+scripts:
+  - path: "scripts/install_homebrew.sh"
+    on: init
