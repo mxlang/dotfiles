@@ -1,3 +1,7 @@
 scripts:
+  - path: "scripts/touchid_sudo.sh"
+    on: init
   - path: "scripts/install_homebrew.sh"
+    on: init
+  - path: "scripts/setup_fish_shell.sh"
     on: init
