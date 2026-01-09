@@ -3,6 +3,8 @@ dotfiles:
   destination: $HOME/.config/fish
 - source: /starship/starship.toml
   destination: $HOME/.config/starship.toml
+- source: /atuin
+  destination: $HOME/.config/atuin
 scripts:
 - path: /scripts/touchid_sudo.sh
   "on": init
