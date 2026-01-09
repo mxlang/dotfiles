@@ -3,6 +3,7 @@
 # install cli tools
 brew install git \
     starship \
-    atuin
+    atuin \
+    eza
 
 # install casks

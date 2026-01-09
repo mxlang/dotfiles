@@ -15,3 +15,8 @@ end
 if command -sq atuin
     atuin init fish | source
 end
+
+# aliases
+alias ls="eza --icons=always"
+alias ll="eza --icons=always --group --long --group-directories-first --header --git"
+alias la="eza --icons=always --group --long --group-directories-first --header --git --all --all"
